@@ -1,3 +1,2 @@
 #!/bin/bash
-“Hello, World”
-select 
+echo -e "Hello, World \n"
