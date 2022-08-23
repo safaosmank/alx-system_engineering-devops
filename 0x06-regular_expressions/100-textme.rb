@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/[A-Z\s]+/).join
+#script should output: [SENDER],[RECEIVER],[FLAGS]
+puts ARGV[0].scan(/(?<=from:|to:|flags:)(.+?)(?=\])/).join(",")
