@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-sudo netstat -lp
+# Ports and sockets
+netstat --listening --program
