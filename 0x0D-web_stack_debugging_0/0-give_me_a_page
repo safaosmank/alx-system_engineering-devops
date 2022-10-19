@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Starts apache server
-
-/etc/init.d/apache2 start
+# Start Apache so as to return a
+# page conatining Hello Holberton
+service apache2 start
